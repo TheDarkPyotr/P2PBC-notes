@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"L1 - 22-02-2023.md","id":"388815d2693cd9f4","x":-560,"y":-460,"width":300,"height":180,"color":"2"},
+		{"type":"file","file":"L2 - 24-02-2023.md","id":"7848101b48658790","x":40,"y":-370,"width":380,"height":240,"color":"2"}
+	],
+	"edges":[
+		{"id":"0bce9b5c16cc839b","fromNode":"388815d2693cd9f4","fromSide":"right","toNode":"7848101b48658790","toSide":"left"}
+	]
+}
