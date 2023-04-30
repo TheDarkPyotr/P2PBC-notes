@@ -1,0 +1,155 @@
+\contentsline {chapter}{\numberline {1}Peer to Peer Systems}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {subsubsection}{Peer-to-peer systems}{3}{section*.3}%
+\contentsline {subsubsection}{History case: Napster}{4}{section*.4}%
+\contentsline {subsection}{\numberline {1.1.1}Blockchain definitions}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Ethereum overview}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}P2P Overlay Network}{7}{section.1.2}%
+\contentsline {subsubsection}{Napster/Gnutella overview}{7}{section*.8}%
+\contentsline {subsection}{\numberline {1.2.1}Overlay Network}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Unstruncured overlays}{8}{subsection.1.2.2}%
+\contentsline {paragraph}{Gnutella: a case of unstructured P2P overlay network}{8}{section*.12}%
+\contentsline {subsubsection}{Searching by flooding}{9}{section*.15}%
+\contentsline {subsubsection}{Expanding ring/Iterative deepening}{10}{section*.19}%
+\contentsline {subsubsection}{Random walk / Drunkard's walk}{10}{section*.20}%
+\contentsline {subsection}{\numberline {1.2.3}Structured P2P overlay}{12}{subsection.1.2.3}%
+\contentsline {subsubsection}{Hierarchical overlays}{12}{section*.22}%
+\contentsline {subsubsection}{Overlay classification summary}{12}{section*.23}%
+\contentsline {section}{\numberline {1.3}Distribute Hash Tables: Chord}{12}{section.1.3}%
+\contentsline {subsubsection}{Memcached}{13}{section*.26}%
+\contentsline {subsection}{\numberline {1.3.1}Scaling out - Distribute Hashing}{13}{subsection.1.3.1}%
+\contentsline {subsubsection}{Chord: construct a DHT}{14}{section*.27}%
+\contentsline {subsection}{\numberline {1.3.2}Node Join}{16}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Lookup}{16}{subsection.1.3.3}%
+\contentsline {paragraph}{An example}{17}{figure.caption.35}%
+\contentsline {section}{\numberline {1.4}Kademlia DHT}{19}{section.1.4}%
+\contentsline {paragraph}{Structure of identifier space}{19}{section*.37}%
+\contentsline {subparagraph}{Mapping keys to nodes}{20}{section*.39}%
+\contentsline {paragraph}{Distances and identifier tree}{21}{section*.47}%
+\contentsline {subsection}{\numberline {1.4.1}Peers tree: an alternative representation}{24}{subsection.1.4.1}%
+\contentsline {subsubsection}{Routing table}{24}{section*.53}%
+\contentsline {subsubsection}{K-Buckets management: add contact}{25}{section*.57}%
+\contentsline {subsection}{\numberline {1.4.2}Key look-up}{26}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Basic Protocol Operations}{27}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Node lookup}{28}{subsection.1.4.4}%
+\contentsline {paragraph}{Complete lookup example}{28}{section*.62}%
+\contentsline {subsubsection}{Node Join/Leave}{29}{section*.65}%
+\contentsline {subsection}{\numberline {1.4.5}Strenghts/Weaknesses}{30}{subsection.1.4.5}%
+\contentsline {subsubsection}{Kamdelia as Prefix Matching DHT}{30}{section*.66}%
+\contentsline {subsection}{\numberline {1.4.6}Content Distribution Network (CDN)}{30}{subsection.1.4.6}%
+\contentsline {section}{\numberline {1.5}BitTorrent Protocol}{31}{section.1.5}%
+\contentsline {subsubsection}{Glossary}{32}{section*.70}%
+\contentsline {subsection}{\numberline {1.5.1}Protocol overview}{32}{subsection.1.5.1}%
+\contentsline {subsubsection}{Pieces and suboieces (blocks)}{34}{section*.74}%
+\contentsline {subsection}{\numberline {1.5.2}Publishing}{34}{subsection.1.5.2}%
+\contentsline {subsubsection}{Peer Bootstrap}{35}{section*.77}%
+\contentsline {paragraph}{Why blocks?: Pipelining}{35}{section*.78}%
+\contentsline {paragraph}{1. Strict Priority}{35}{figure.caption.80}%
+\contentsline {paragraph}{2. Rarest First}{36}{section*.81}%
+\contentsline {paragraph}{3. Random First Piece}{37}{section*.84}%
+\contentsline {paragraph}{4. Endgame}{37}{section*.85}%
+\contentsline {subsection}{\numberline {1.5.3}Free riders problem}{37}{subsection.1.5.3}%
+\contentsline {subsubsection}{Choking Algorithm}{38}{section*.87}%
+\contentsline {subsubsection}{Optimistic Unchoking}{38}{section*.90}%
+\contentsline {subsection}{\numberline {1.5.4}BitTorrent at a glance}{39}{subsection.1.5.4}%
+\contentsline {subsubsection}{Two-way handshake}{39}{section*.92}%
+\contentsline {subsubsection}{Peer Wire Protocol}{40}{section*.95}%
+\contentsline {subsection}{\numberline {1.5.5}BitTorrent Mainline DHT}{41}{subsection.1.5.5}%
+\contentsline {subsubsection}{Example}{41}{section*.97}%
+\contentsline {chapter}{\numberline {2}Cryptographic tools and data structure}{43}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cryptographic toolbox for DHT and Blockchains}{43}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Hash function}{43}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Cryptographic hash functions}{44}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Hiding}{45}{subsection.2.1.3}%
+\contentsline {subsubsection}{Commitment scheme (Hiding)}{46}{section*.105}%
+\contentsline {subsubsection}{Search Puzzles}{47}{section*.108}%
+\contentsline {subsubsection}{Cryptographic hash applications}{47}{section*.110}%
+\contentsline {section}{\numberline {2.2}Data structure for DHT \& Blockchains}{47}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Hash Pointers}{47}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Bloom filter}{48}{subsection.2.2.2}%
+\contentsline {paragraph}{Building a Bloom Filter}{48}{section*.114}%
+\contentsline {paragraph}{Look up}{49}{section*.116}%
+\contentsline {subparagraph}{Other operations}{50}{section*.119}%
+\contentsline {subparagraph}{Bloom Filter usages}{50}{section*.120}%
+\contentsline {subsection}{\numberline {2.2.3}Merkle Hash Tree}{50}{subsection.2.2.3}%
+\contentsline {paragraph}{Merkle Proof}{51}{section*.122}%
+\contentsline {paragraph}{Rationale behind large merkle proofs}{52}{section*.124}%
+\contentsline {subparagraph}{Merkle Tress in BitTorrent}{52}{section*.125}%
+\contentsline {subparagraph}{Merkle Tress in Bitcoin}{52}{section*.126}%
+\contentsline {subparagraph}{Merkle Tress Complexity Summary}{52}{section*.127}%
+\contentsline {subsection}{\numberline {2.2.4}Trie}{52}{subsection.2.2.4}%
+\contentsline {subsubsection}{Patricia Trie}{53}{section*.128}%
+\contentsline {subsection}{\numberline {2.2.5}Patricia Merkle Trie}{53}{subsection.2.2.5}%
+\contentsline {chapter}{\numberline {3}Bitcoin}{56}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Blockchain introduction}{56}{section.3.1}%
+\contentsline {subsubsection}{Ledger}{56}{section*.132}%
+\contentsline {paragraph}{Sybil attack}{57}{section*.133}%
+\contentsline {paragraph}{Proof of Work}{57}{section*.134}%
+\contentsline {paragraph}{Proof of Ownership}{57}{section*.135}%
+\contentsline {subsubsection}{Blockchain access types}{57}{section*.136}%
+\contentsline {section}{\numberline {3.2}Transactions and scripts}{58}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Decentralized Identity Management}{58}{subsection.3.2.1}%
+\contentsline {subparagraph}{Keys and addresses}{58}{section*.137}%
+\contentsline {subsection}{\numberline {3.2.2}Payment}{59}{subsection.3.2.2}%
+\contentsline {subsubsection}{Unspent TXransacton Output Model}{60}{section*.143}%
+\contentsline {subsubsection}{Scripts}{60}{section*.146}%
+\contentsline {subparagraph}{Scripting language model}{61}{section*.149}%
+\contentsline {subsection}{\numberline {3.2.3}Bitcoin scripts}{62}{subsection.3.2.3}%
+\contentsline {paragraph}{Transaction Lifecycle}{63}{section*.153}%
+\contentsline {section}{\numberline {3.3}Distributed Consensus}{64}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Mining}{65}{subsection.3.3.1}%
+\contentsline {subsubsection}{Random Node Selection}{66}{section*.156}%
+\contentsline {paragraph}{Proof of Work - Formal definition}{66}{section*.158}%
+\contentsline {paragraph}{Mining reward}{66}{section*.159}%
+\contentsline {paragraph}{Mining difficult}{67}{section*.161}%
+\contentsline {paragraph}{BTC Blockchain overview}{69}{section*.165}%
+\contentsline {paragraph}{Temporary forks}{69}{section*.167}%
+\contentsline {subparagraph}{Nakamoto consensus}{70}{section*.170}%
+\contentsline {section}{\numberline {3.4}Attacks: selfish mining and malleability}{71}{section.3.4}%
+\contentsline {subsubsection}{1. Double Spending Attack}{71}{section*.173}%
+\contentsline {subparagraph}{\textbf {Type 1}:}{71}{section*.174}%
+\contentsline {subparagraph}{Type 2}{71}{section*.175}%
+\contentsline {subparagraph}{Type 3}{71}{section*.176}%
+\contentsline {subparagraph}{Type 4}{71}{section*.177}%
+\contentsline {subparagraph}{Type 5}{72}{section*.179}%
+\contentsline {subparagraph}{Type 6 (51\% attack)}{72}{section*.181}%
+\contentsline {subsubsection}{Transaction Malleability Attack}{73}{section*.183}%
+\contentsline {subsubsection}{Denial of Service}{73}{section*.185}%
+\contentsline {subsection}{\numberline {3.4.1}Bitcoin ecosystem}{73}{subsection.3.4.1}%
+\contentsline {subsubsection}{Miners}{74}{section*.186}%
+\contentsline {paragraph}{Payout}{75}{section*.189}%
+\contentsline {subsubsection}{Decentralized mining pool}{75}{section*.190}%
+\contentsline {chapter}{\numberline {4}Ethereum}{77}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Overview}{77}{subsection.4.0.1}%
+\contentsline {subsubsection}{Accounts overview}{77}{section*.193}%
+\contentsline {paragraph}{Smart Contract}{78}{section*.194}%
+\contentsline {subsubsection}{Accounts and transactions insights}{78}{section*.196}%
+\contentsline {subsubsection}{Ethereum State Machine}{80}{section*.198}%
+\contentsline {subsection}{\numberline {4.0.2}Gas}{80}{subsection.4.0.2}%
+\contentsline {paragraph}{Gas price}{81}{section*.201}%
+\contentsline {paragraph}{Transaction format}{81}{section*.203}%
+\contentsline {section}{\numberline {4.1}Solidity}{82}{section.4.1}%
+\contentsline {subsubsection}{Contract example}{82}{section*.206}%
+\contentsline {paragraph}{\texttt {pragma} directive}{83}{section*.207}%
+\contentsline {subparagraph}{\texttt {address} type}{83}{section*.208}%
+\contentsline {subsubsection}{Data store model}{84}{section*.209}%
+\contentsline {subsubsection}{Constructors}{85}{section*.213}%
+\contentsline {subparagraph}{Error handling}{86}{section*.215}%
+\contentsline {subparagraph}{Event logging}{86}{section*.216}%
+\contentsline {subsubsection}{Example: lottery on blockchain}{87}{section*.217}%
+\contentsline {paragraph}{Sending and receiving ether}{88}{section*.218}%
+\contentsline {section}{\numberline {4.2}Smart Contracts: Security Vulnerabilities}{89}{section.4.2}%
+\contentsline {subsubsection}{Simplified DAO}{89}{section*.219}%
+\contentsline {subsection}{\numberline {4.2.1}1. Re-entrancy vulnerability}{90}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}2. Arithmetic over/under flow}{91}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}3. Front Running attack}{91}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}4. Transaction ordering attack}{91}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}5. Phishing attack}{93}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Tokenization}{94}{section.4.3}%
+\contentsline {subsubsection}{ICO - Initial Coin Offer}{94}{section*.223}%
+\contentsline {paragraph}{Semi-fungible token (SFT)}{95}{section*.224}%
+\contentsline {subsection}{\numberline {4.3.1}ERC Tokens}{95}{subsection.4.3.1}%
+\contentsline {subsubsection}{ERC-20 tokens}{95}{section*.225}%
+\contentsline {subparagraph}{Allowance example}{96}{section*.226}%
+\contentsline {subsubsection}{ERC-721 Interface}{96}{section*.227}%
+\contentsline {subparagraph}{Storing metadata}{96}{section*.228}%
